@@ -1,0 +1,187 @@
+[
+  {
+    "name": "contacts",
+    "fields": [
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "code",
+        "optional": false,
+        "sort": false,
+        "type": "string"
+      },
+      {
+        "facet": true,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "name",
+        "optional": false,
+        "sort": true,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "type",
+        "optional": false,
+        "sort": true,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "active",
+        "optional": false,
+        "sort": true,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "taxId",
+        "optional": true,
+        "sort": false,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "contact",
+        "optional": true,
+        "sort": false,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "description",
+        "optional": true,
+        "sort": false,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "tenant",
+        "optional": true,
+        "sort": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "car-lines",
+    "fields": [
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "carBrandId",
+        "optional": false,
+        "sort": false,
+        "type": "string"
+      },
+      {
+        "facet": true,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "name",
+        "optional": false,
+        "sort": true,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "description",
+        "optional": true,
+        "sort": false,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "active",
+        "optional": false,
+        "sort": true,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "tenant",
+        "optional": true,
+        "sort": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "car-brands",
+    "fields": [
+      {
+        "facet": true,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "name",
+        "optional": false,
+        "sort": true,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "description",
+        "optional": true,
+        "sort": false,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "active",
+        "optional": false,
+        "sort": true,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "tenant",
+        "optional": true,
+        "sort": false,
+        "type": "string"
+      }
+    ]
+  }
+]
