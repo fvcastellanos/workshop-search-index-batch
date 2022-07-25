@@ -2,7 +2,6 @@ package net.cavitos.workshop.search.configuration;
 
 import net.cavitos.workshop.search.schema.listener.JobCompletionNotificationListener;
 import net.cavitos.workshop.search.schema.procesor.SchemaProcessor;
-import net.cavitos.workshop.search.schema.reader.SchemaItemReader;
 import net.cavitos.workshop.search.schema.writer.SchemaWriter;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -55,10 +54,10 @@ public class SchemaJobConfiguration {
     }
 
     @Bean
-    public Job typesenseSchemaConfigrationJob(final JobCompletionNotificationListener jobCompletionNotificationListener,
+    public Job typesenseSchemaConfigurationJob(final JobCompletionNotificationListener jobCompletionNotificationListener,
                                               final Step typesenseSchemaConfigurationStep) {
 
-        return jobBuilderFactory.get("typesenseSchemaConfigrationJob")
+        return jobBuilderFactory.get("typesenseSchemaConfigurationJob")
                 .incrementer(new RunIdIncrementer())
                 .listener(jobCompletionNotificationListener)
                 .flow(typesenseSchemaConfigurationStep)
